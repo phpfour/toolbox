@@ -1,5 +1,13 @@
 {
     "require": {
-        "sabre/xml": "^1.5"
+        "sabre/xml": "^1.5",
+        "illuminate/database": "^6.17",
+        "kitetail/zttp": "^0.6.0"
+    },
+    "autoload": {
+        "classmap": ["src"],
+        "files": [
+            "config.php"
+        ]
     }
 }
